@@ -8,6 +8,6 @@ describe('The countRegNumber function', function() {
   });
 
   it('Should count two registration number', function() {
-    assert.equal(countRegNumber('CA 182736', 'CY 999'), 2);
+    assert.equal(countRegNumber('CA 182736, CAW 14453'), 2);
   });
 });
